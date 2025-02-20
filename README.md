@@ -5,9 +5,9 @@ Currently nothing. I plan to update this with a better GUI for warping and blend
 1. Change code to just 2 projectors
 2. Allow for complete overlap to support projector stacking (Selectable positioning of second screen with respect to first?)
 3. Improve warping correction from 4 points in corners to full grid (customizable size?)
-4. Eventually support cylindrical displays (could just do by allowing selectable offset of second screen?)
-4a. Could accomplish just by allowing a selectable offset of the second screen, allowing manual grid alignment with curved screen
-4b. Could accomplish by selecting screen type (flat vs curved) and using geometric correction for a curved screen to calculate grid, then allowing fine tuning (see [xpcockpit project on github](https://github.com/retostockli/xpcockpit/tree/master/warpblend) for geometric correction technique)
+4. Eventually support cylindrical displays
+  - Could accomplish just by allowing a selectable offset of the second screen, allowing manual grid alignment with curved screen
+  - Could accomplish by selecting screen type (flat vs curved) and using geometric correction for a curved screen to calculate grid, then allowing fine tuning (see [xpcockpit project on github](https://github.com/retostockli/xpcockpit/tree/master/warpblend) for geometric correction technique)
 5. Repackage to easy to use GUI?
 
 # Warping and Blending using NVAPI
